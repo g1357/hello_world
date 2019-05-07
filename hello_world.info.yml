@@ -1,0 +1,11 @@
+name: Hello World
+descriptions: Hello World module
+type: modula
+core: 8.x
+paxkage: Cystom # Категория для группировки модулей
+# Зависимость от других модулей "- <проект>:<модуль>"
+dependencies:
+  - drupal:views
+  - ctools:ctools (>=8.3-3.x)
+
+
