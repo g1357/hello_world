@@ -16,7 +16,7 @@ class HelloWorldController extends ControllerBase {
   protected $salutation;
 
   /**
-   * Конструктор HelloWorldController
+   * Конструктор HelloWorldController.
    *
    * @param \Drupal\hello_world\HelloWorldSalutation $salutation
    */
