@@ -1,0 +1,29 @@
+name: 'epe_simplelaw'
+description: "EPE Simple Law Theme from HTML5 Template"
+core: 8.x
+type: theme
+base theme: classy
+#screenshot: epe_simplelaw.png
+
+regions:
+    logo: 'logo'
+    navigation: 'Navigation'
+    primary_menu: 'primary_menu'
+    header: 'Top Bar'
+    highlighted: 'Highlighted'
+    slider: 'slider'
+    title: 'title'
+    content: 'Content'
+    sidebar_first: 'Primary'
+    sidebar_second: 'Secondary'
+    contact: 'contact'
+    map: 'map'
+    footer: 'footer'
+    footer_col_1: 'footer column1'
+    footer_col_2: 'footer column2'
+    footer_col_3: 'footer column3'
+    contact: 'Contact Form'
+
+#libraries:
+#   - epe_simplelaw/global-css
+#   - epe_simplelaw/global-js
