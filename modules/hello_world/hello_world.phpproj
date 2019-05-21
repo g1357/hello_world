@@ -1,0 +1,41 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>hello_world</Name>
+    <ProjectGuid>{1520617c-f895-4a9f-965c-71bb39a72045}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".vs\hello_world\config\applicationhost.config" />
+    <Compile Include=".vs\ProjectSettings.json" />
+    <Compile Include=".vs\slnx.sqlite" />
+    <Compile Include=".vs\VSWorkspaceState.json" />
+    <Compile Include=".vscode\launch.json" />
+    <Compile Include="src\HelloWorldController.php" />
+    <Compile Include="src\HelloWorldSalutation.php" />
+    <Compile Include="src\SalutationConfigurationForm.php" />
+    <Compile Include=".gitignore" />
+    <Compile Include="hello_world.info.yml" />
+    <Compile Include="hello_world.module" />
+    <Compile Include="hello_world.routing.yml" />
+    <Compile Include="hello_world.services.yml" />
+    <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\hello_world\config" />
+    <Folder Include=".vs\hello_world\v16" />
+    <Folder Include=".vs\hello_world" />
+    <Folder Include=".vs" />
+    <Folder Include=".vscode" />
+    <Folder Include="src" />
+  </ItemGroup>
+</Project>
