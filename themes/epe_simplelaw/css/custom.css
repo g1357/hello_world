@@ -1,0 +1,157 @@
+.dropdown a{
+	display: block;
+    color: #999999 !important;
+    line-height: 1.2;
+    text-transform: none;
+    font-size: 13px !important;
+    letter-spacing: 0;
+    padding: 0px !important;
+}
+.slider-text-inner .btn a{
+	color: #fff !important
+}
+.webform-submission-consultation-form .row.name{
+	width: 50%;
+    float: left;
+}
+.webform-submission-consultation-form .row.lastname{
+    width: 60%;    
+    float: left;
+    padding-left: 51px;
+
+}
+#fh5co-footer ul.menu{
+	margin-left: 0em;
+}
+h2#block-footer-2-menu{
+	font-size: 18px;
+}
+
+#fh5co-footer ul.menu li a{
+color:#808796;
+}
+.path-notfrontpage #fh5co-blog .fh5co-heading {
+	display: none;
+
+}
+#fh5co-hero ul.slides li{
+	opacity: 1 !important;
+}
+.path-notfrontpage .field--name-field-testimonial-block #fh5co-testimonial{
+	background: #fff !important;
+}
+
+/* Start Blog Detail */
+.blog-area .section-title{
+	padding-left: 0px;
+}
+.blog-single-area {
+    padding: 80px 0;
+}
+.blog-area .section-title h2{
+    padding-bottom: 0px;
+
+}
+.blog-area .section-title{
+    padding-bottom: 25px;
+}
+.blog-content blockquote {
+    padding: 30px 30px;
+    background: #b7b5b5;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #353535;
+    font-size: 16px;
+}
+.blog-content {
+    margin-top: 40px;
+}
+.blog-content p{
+    line-height: 27px;    
+    color: #776c6c;
+}
+.blog-single-img img{
+    width: 100%;
+    height: 480px;
+}
+/* End Blog Detail */
+
+#page-not-found h1{
+	font-size: 120px;
+	color: #000;
+}
+#page-not-found h2{
+	font-size: 50px;
+	color: #000;
+}
+.page-not-found-text a{
+	color: #fff !important;
+    background: #000000;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+#user-login .container{
+	width: 45%;
+    box-shadow: 1px 2px 3px 1px;
+    padding: 37px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.comment-comment-form input.js-form-submit,
+.user-login-form input.js-form-submit,
+.user-register-form input.js-form-submit,
+.user-pass input.js-form-submit,.comment-comment-delete-form input.js-form-submit{
+   padding: 14px 28px;
+    width: 25%;
+    background: #000000;
+    float: left;
+    color: #fff !important;
+    font-size:18px;
+    font-weight: bold;
+    border-radius:5px;
+    text-decoration: none !important;
+    display: inline-block;
+    border: 0;
+    color: #222222;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+ 
+}
+#user-login h2{
+	color: #000;
+}
+#user-login input{
+	box-shadow: 1px 0px 3px 0px;
+    padding: 6px;
+    border-radius: 4px;
+}
+.user-register-form.user-form{
+	padding: 50px;
+	margin-bottom: 40px;
+}
+form input{
+	max-width: -webkit-fill-available;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+
+.navbar-nav.ml-auto{
+	padding-left: 0px;
+}
+#user-login .container{
+	width: 80%;
+}
+.comment-comment-form input.js-form-submit, .user-login-form input.js-form-submit, .user-register-form input.js-form-submit, .user-pass input.js-form-submit, .comment-comment-delete-form input.js-form-submit{
+	padding: 6px 19px;
+    width: 71%;
+    background: #000000;
+    float: left;
+    color: #fff !important;
+    font-size: 10px;
+}
+}
